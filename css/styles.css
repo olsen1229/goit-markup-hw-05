@@ -318,9 +318,9 @@ header .web {
     gap: 24px;
     justify-content: center;
     padding-bottom: 72px;
-    padding-top: 96px;
     border-radius: 4px;
     border-style: none;
+    
     
 
 
@@ -330,8 +330,8 @@ header .web {
     font-family: Roboto;
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-        0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-        0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+            0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     border-style: none;
     border-radius: 4px;
     width: 69px;
@@ -341,7 +341,7 @@ header .web {
   
 }
 
-.button-link txt {
+.buton-link txt {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -364,6 +364,12 @@ header .web {
     line-height: 24px;
     letter-spacing: 0.64px
     border: 1px solid #E7E9FC;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border-style: none;
+  
+
+
 }
 .project-f-list {
     width: 100%;
@@ -385,6 +391,14 @@ header .web {
     
 
 }
+.project-caption {
+    padding-bottom: 32px;
+    background: var(--CLOUD);
+    align-items: center;
+    margin: 0px;
+    padding-top: 32px;
+    padding-left: 16px;
+}
 
 
 
@@ -400,6 +414,10 @@ footer {
     height: 312px;
   
     
+}
+.bg-dark {
+    background-color: var(--NAVY-BLUE);
+
 }
 
 .footer-container {
