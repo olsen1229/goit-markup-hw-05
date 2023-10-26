@@ -124,6 +124,7 @@ header .web {
     height: 584px;
     border-radius: 4px;
     padding: 24px;
+    
 }
 .is-hidden {
     opacity: 0;
